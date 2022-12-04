@@ -1,0 +1,1269 @@
+﻿[2022.12.03-20.16.36:340][  0]Log file open, 12/03/22 20:16:36
+[2022.12.03-20.16.36:340][  0]LogInit:Display: Running engine for game: Hivemind
+[2022.12.03-20.16.36:340][  0]LogPlatformFile: Not using cached read wrapper
+[2022.12.03-20.16.36:340][  0]LogInit:Display: RandInit(552216424) SRandInit(552216452).
+[2022.12.03-20.16.36:340][  0]LogTaskGraph: Started task graph with 4 named threads and 6 total threads.
+[2022.12.03-20.16.36:340][  0]LogStats: Stats thread started at 0.127029
+[2022.12.03-20.16.36:340][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2022.12.03-20.16.36:340][  0]LogInit: API Version: 2758231
+[2022.12.03-20.16.36:340][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2022.12.03-20.16.36:340][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2022.12.03-20.16.36:341][  0]LogInit: Build Configuration: Development
+[2022.12.03-20.16.36:341][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2022.12.03-20.16.36:341][  0]LogInit: Command line: -EpicPortal  -epicusername="KJGaming" -epicuserid=d9f35ac369304d40a1c5cf6ee03e4b45 -epiclocale=en -epicsandboxid=ue
+[2022.12.03-20.16.36:341][  0]LogInit: Base directory: E:/UE_4.10/Engine/Binaries/Win64/
+[2022.12.03-20.16.36:341][  0]LogInit: Rocket: 1
+[2022.12.03-20.16.36:353][  0]LogInit: Using libcurl 7.41.0
+[2022.12.03-20.16.36:353][  0]LogInit:  - built for x86_64-pc-win32
+[2022.12.03-20.16.36:353][  0]LogInit:  - supports SSL with WinSSL
+[2022.12.03-20.16.36:353][  0]LogInit:  - other features:
+[2022.12.03-20.16.36:353][  0]LogInit:      CURL_VERSION_SSL
+[2022.12.03-20.16.36:353][  0]LogInit:      CURL_VERSION_IPV6
+[2022.12.03-20.16.36:353][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2022.12.03-20.16.36:353][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2022.12.03-20.16.36:353][  0]LogInit:      CURL_VERSION_IDN
+[2022.12.03-20.16.36:353][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2022.12.03-20.16.36:353][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2022.12.03-20.16.36:353][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2022.12.03-20.16.36:353][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2022.12.03-20.16.36:353][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2022.12.03-20.16.36:362][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2022.12.03-20.16.36:370][  0]LogInit: Object subsystem initialized
+[2022.12.03-20.16.36:372][  0]LogInit: Selected Device Profile: [Windows]
+[2022.12.03-20.16.36:372][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2022.12.03-20.16.36:392][  0]LogInit: Computer: DESKTOP-15OBU63
+[2022.12.03-20.16.36:392][  0]LogInit: User: Adit
+[2022.12.03-20.16.36:392][  0]LogInit: CPU Page size=4096, Cores=3
+[2022.12.03-20.16.36:392][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2022.12.03-20.16.36:392][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2022.12.03-20.16.36:392][  0]LogMemory: Platform Memory Stats for Windows
+[2022.12.03-20.16.36:392][  0]LogMemory: Process Physical Memory: 57.44 MB used, 57.44 MB peak
+[2022.12.03-20.16.36:392][  0]LogMemory: Process Virtual Memory: 55.63 MB used, 55.63 MB peak
+[2022.12.03-20.16.36:392][  0]LogMemory: Physical Memory: 4219.32 MB used, 8149.86 MB total
+[2022.12.03-20.16.36:392][  0]LogMemory: Virtual Memory: 4502.07 MB used, 134217728.00 MB total
+[2022.12.03-20.16.36:440][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2022.12.03-20.16.37:100][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 1060 6GB (Feature Level 11_0)
+[2022.12.03-20.16.37:100][  0]LogD3D11RHI: Adapter has 6052MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 1 output[s]
+[2022.12.03-20.16.37:103][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2022.12.03-20.16.37:103][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4074MB of shared system memory, 0 output[s]
+[2022.12.03-20.16.37:103][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2022.12.03-20.16.37:113][  0]LogD3D11RHI: !Direct3DDevice
+[2022.12.03-20.16.37:113][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2022.12.03-20.16.37:220][  0]LogD3D11RHI: Async texture creation enabled
+[2022.12.03-20.16.37:236][  0]LogShaderCompilers: Guid format shader working directory is 15 characters bigger than the processId version (../../../../Hivemind/Hivemind/Intermediate/Shaders/WorkingDirectory/14276/).
+[2022.12.03-20.16.37:237][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Adit/AppData/Local/Temp/UnrealShaderWorkingDir/B3EA18F3437FAF20CAE8BA80E2E034AD/'.
+[2022.12.03-20.16.37:237][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2022.12.03-20.16.38:694][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2022.12.03-20.16.38:700][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2022.12.03-20.16.38:706][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2022.12.03-20.16.38:712][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2022.12.03-20.16.38:718][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2022.12.03-20.16.38:723][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2022.12.03-20.16.38:728][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2022.12.03-20.16.38:733][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2022.12.03-20.16.38:738][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2022.12.03-20.16.38:744][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2022.12.03-20.16.38:749][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2022.12.03-20.16.38:759][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2022.12.03-20.16.38:759][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2022.12.03-20.16.38:761][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2022.12.03-20.16.38:781][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2022.12.03-20.16.38:786][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2022.12.03-20.16.38:791][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2022.12.03-20.16.38:796][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2022.12.03-20.16.38:796][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2022.12.03-20.16.38:926][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2022.12.03-20.16.39:002][  0]LogDerivedDataCache: Loaded boot cache 0.08s 41MB C:/Users/Adit/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2022.12.03-20.16.39:002][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Adit/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2022.12.03-20.16.39:002][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Hivemind/Hivemind/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2022.12.03-20.16.39:002][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2022.12.03-20.16.39:002][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Hivemind/Hivemind/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2022.12.03-20.16.39:002][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2022.12.03-20.16.39:069][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2022.12.03-20.16.39:083][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Adit/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2022.12.03-20.16.39:384][  0]LogInit: Selected Device Profile: [Windows]
+[2022.12.03-20.16.39:390][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2022.12.03-20.16.39:552][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2022.12.03-20.16.39:553][  0]LogMeshUtilities: No automatic mesh merging module available
+[2022.12.03-20.16.39:933][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2022.12.03-20.16.41:346][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2022.12.03-20.16.41:469][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2022.12.03-20.16.41:762][  0]SourceControl: Info Source control is disabled
+[2022.12.03-20.16.41:835][  0]SourceControl: Info Source control is disabled
+[2022.12.03-20.16.41:862][  0]SourceControl: Info Source control is disabled
+[2022.12.03-20.16.41:888][  0]SourceControl: Info Source control is disabled
+[2022.12.03-20.16.42:395][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2022.12.03-20.16.42:395][  0]LogUObjectAllocator: 6099744 out of 0 bytes used by permanent object pool.
+[2022.12.03-20.16.42:468][  0]LogEngine: Initializing Engine...
+[2022.12.03-20.16.42:473][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2022.12.03-20.16.42:475][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2022.12.03-20.16.42:646][  0]LogAIModule: Creating AISystem for world NewWorld
+[2022.12.03-20.16.42:699][  0]LogInit: XAudio2 using 'Headphones (Bose QC45 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.12.03-20.16.42:731][  0]LogInit: FAudioDevice initialized.
+[2022.12.03-20.16.42:770][  0]LogDerivedDataCache: Saved boot cache 0.04s 41MB C:/Users/Adit/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2022.12.03-20.16.42:780][  0]LogInit: Texture streaming: Enabled
+[2022.12.03-20.16.42:785][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2022.12.03-20.16.42:785][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2022.12.03-20.16.42:785][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0bb9cf1145325950ec0739a463cd03eb|d9f35ac369304d40a1c5cf6ee03e4b45|a225f950-7172-4c58-b763-7ae29fba924e
+[2022.12.03-20.16.42:785][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2022.12.03-20.16.42:799][  0]LogInit: Transaction tracking system initialized
+[2022.12.03-20.16.42:826][  0]BlueprintLog: New page: Editor Load
+[2022.12.03-20.16.42:915][  0]LocalizationService: Info Localization service is disabled
+[2022.12.03-20.16.43:025][  0]LogConsoleResponse:Display: 
+[2022.12.03-20.16.43:210][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2022.12.03-20.16.43:308][  0]LogFileCache: Scanning file cache for directory 'E:/Hivemind/Hivemind/Content/' took 0.02s
+[2022.12.03-20.16.43:308][  0]SourceControl: Info Source control is disabled
+[2022.12.03-20.16.43:308][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.03-20.16.43:309][  0]LightingResults: New page: Lighting Build
+[2022.12.03-20.16.43:312][  0]MapCheck: New page: Map Check
+[2022.12.03-20.16.43:312][  0]LightingResults: New page: Lighting Build
+[2022.12.03-20.16.43:330][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADEA43F420
+[2022.12.03-20.16.43:713][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2022.12.03-20.16.43:724][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.03-20.16.43:730][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.03-20.16.43:865][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 134.753ms to complete.
+[2022.12.03-20.16.43:865][  0]LogFileHelpers: Loading map 'Template_Default' took 0.557
+[2022.12.03-20.16.44:058][  0]LogCollectionManager: Loaded 0 collections in 0.002042 seconds
+[2022.12.03-20.16.44:103][  0]LogFileCache: Scanning file cache for directory 'E:/Hivemind/Hivemind/Saved/Collections/' took 0.01s
+[2022.12.03-20.16.44:103][  0]LogFileCache: Scanning file cache for directory 'E:/Hivemind/Hivemind/Content/Developers/Adit/Collections/' took 0.01s
+[2022.12.03-20.16.44:103][  0]LogFileCache: Scanning file cache for directory 'E:/Hivemind/Hivemind/Content/Collections/' took 0.01s
+[2022.12.03-20.16.44:103][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2022.12.03-20.16.44:118][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 1893 classes and 338 folders.
+[2022.12.03-20.16.44:126][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2022.12.03-20.16.44:733][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2022.12.03-20.16.44:738][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2022.12.03-20.16.44:825][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2022.12.03-20.16.44:835][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2022.12.03-20.16.44:859][  0]LogLoad: Full Startup: 9.30 seconds (BP compile: 0.06 seconds)
+[2022.12.03-20.16.44:876][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2022.12.03-20.16.45:031][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2022.12.03-20.16.45:249][  0]LogRenderer: Reallocating scene render targets to support 1208x572 (Frame:2).
+[2022.12.03-20.16.45:482][  4]LogAssetRegistry: Asset discovery search completed in 4.0245 seconds
+[2022.12.03-20.16.45:482][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2022.12.03-20.16.45:482][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2022.12.03-20.16.48:334][309]LogAIModule: Creating AISystem for world Scene01
+[2022.12.03-20.16.48:376][309]Cmd: MAP LOAD FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2022.12.03-20.16.48:376][309]LightingResults: New page: Lighting Build
+[2022.12.03-20.16.48:413][309]LoadErrors: New page: Loading map: Scene01.umap
+[2022.12.03-20.16.48:414][309]MapCheck: New page: Map Check
+[2022.12.03-20.16.48:414][309]LightingResults: New page: Lighting Build
+[2022.12.03-20.16.48:431][309]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADDC26B880
+[2022.12.03-20.16.48:475][309]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2022.12.03-20.16.48:519][309]Cmd: MAP CHECKDEP NOCLEARLOG
+[2022.12.03-20.16.48:673][309]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 153.758ms to complete.
+[2022.12.03-20.16.48:675][309]LogFileHelpers: Loading map 'Scene01' took 0.301
+[2022.12.03-20.17.04:713][798]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door)
+[2022.12.03-20.17.44:394][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.17.44:475][980]LogSavePackage: Save=39.725651ms
+[2022.12.03-20.17.44:475][980]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene015A90306A490A8FCF66F06396449A6396.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.17.44:480][980]LogSavePackage: Total save time: 66.359829ms
+[2022.12.03-20.17.44:480][980]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.17.44:528][980]LogFileHelpers: Saving map 'Scene01' took 0.288
+[2022.12.03-20.17.45:396][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-20.17.45:396][ 66]PIE: New page: PIE session: Scene01 (3 Dec 2022 20:17:45)
+[2022.12.03-20.17.45:396][ 66]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Scene01
+[2022.12.03-20.17.45:399][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003267s)
+[2022.12.03-20.17.45:400][ 66]LogAIModule: Creating AISystem for world Scene01
+[2022.12.03-20.17.45:400][ 66]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2022.12.03-20.17.45:400][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Scene01.Scene01 to /Game/Scenes/UEDPIE_0_Scene01.Scene01 (0.004456s)
+[2022.12.03-20.17.45:464][ 66]LogInit: XAudio2 using 'Headphones (Bose QC45 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.12.03-20.17.45:479][ 66]LogInit: FAudioDevice initialized.
+[2022.12.03-20.17.45:548][ 66]LogWorld: Game class is 'Gamemode_C'
+[2022.12.03-20.17.45:555][ 66]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Scene01.Scene01 up for play (max tick rate 0) at 2022.12.03-20.17.45
+[2022.12.03-20.17.45:555][ 66]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-20.17.45:556][ 66]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-20.17.45:556][ 66]LogWorld: Bringing up level for play took: 0.005535
+[2022.12.03-20.17.45:561][ 66]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Scene01 -0.091
+[2022.12.03-20.18.02:139][ 22]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADDF424E00
+[2022.12.03-20.18.43:455][317]Cmd: EDIT COPY
+[2022.12.03-20.18.43:768][350]Cmd: EDIT PASTE
+[2022.12.03-20.19.11:882][325]Cmd: TRANSACTION UNDO
+[2022.12.03-20.19.11:882][325]LogEditorTransaction: Undo Scale Actors
+[2022.12.03-20.19.14:078][567]Cmd: TRANSACTION UNDO
+[2022.12.03-20.19.14:078][567]LogEditorTransaction: Undo Scale Actors
+[2022.12.03-20.19.16:462][776]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.19.16:538][776]LogSavePackage: Save=39.331116ms
+[2022.12.03-20.19.16:538][776]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene013645A608442D5087225A50A474F1B257.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.19.16:543][776]LogSavePackage: Total save time: 61.249964ms
+[2022.12.03-20.19.16:543][776]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.19.16:587][776]LogFileHelpers: Saving map 'Scene01' took 0.285
+[2022.12.03-20.19.16:988][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-20.19.16:988][820]PIE: New page: PIE session: Scene01 (3 Dec 2022 20:19:16)
+[2022.12.03-20.19.16:988][820]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Scene01
+[2022.12.03-20.19.16:992][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004311s)
+[2022.12.03-20.19.16:993][820]LogAIModule: Creating AISystem for world Scene01
+[2022.12.03-20.19.16:994][820]LogPlayLevel: PIE: World Init took: (0.001005s)
+[2022.12.03-20.19.16:994][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Scene01.Scene01 to /Game/Scenes/UEDPIE_0_Scene01.Scene01 (0.005529s)
+[2022.12.03-20.19.17:062][820]LogInit: XAudio2 using 'Headphones (Bose QC45 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.12.03-20.19.17:080][820]LogInit: FAudioDevice initialized.
+[2022.12.03-20.19.17:123][820]LogWorld: Game class is 'Gamemode_C'
+[2022.12.03-20.19.17:129][820]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Scene01.Scene01 up for play (max tick rate 0) at 2022.12.03-20.19.17
+[2022.12.03-20.19.17:129][820]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-20.19.17:130][820]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-20.19.17:130][820]LogWorld: Bringing up level for play took: 0.004988
+[2022.12.03-20.19.17:134][820]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Scene01 -0.518
+[2022.12.03-20.19.24:568][693]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADDF4EE8E0
+[2022.12.03-20.19.35:032][662]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.19.35:554][711]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.19.36:579][805]LogEditorViewport: Clicking Background
+[2022.12.03-20.20.08:210][669]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door2)
+[2022.12.03-20.20.15:029][442]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.20.17:399][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.20.17:905][730]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2022.12.03-20.20.25:803][532]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door2)
+[2022.12.03-20.20.27:371][670]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.20.27:444][670]LogSavePackage: Save=37.386314ms
+[2022.12.03-20.20.27:444][670]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene012260680D449C0E9AD1CFCA924388A2F6.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.20.27:450][670]LogSavePackage: Total save time: 60.230140ms
+[2022.12.03-20.20.27:450][670]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.20.27:496][670]LogFileHelpers: Saving map 'Scene01' took 0.279
+[2022.12.03-20.21.16:538][509]Cmd: EDIT COPY
+[2022.12.03-20.21.16:777][537]Cmd: EDIT PASTE
+[2022.12.03-20.21.46:256][529]Cmd: TRANSACTION UNDO
+[2022.12.03-20.21.46:256][529]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.21.47:641][628]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.21.47:724][628]LogSavePackage: Save=45.436363ms
+[2022.12.03-20.21.47:724][628]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01067943544E92175B059F3186219B36EC.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.21.47:731][628]LogSavePackage: Total save time: 68.940677ms
+[2022.12.03-20.21.47:731][628]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.21.47:794][628]LogFileHelpers: Saving map 'Scene01' took 0.313
+[2022.12.03-20.22.10:152][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.22.10:231][404]LogSavePackage: Save=42.715694ms
+[2022.12.03-20.22.10:231][404]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene019BEE30C04E820B19676F6691BC976ED6.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.22.10:237][404]LogSavePackage: Total save time: 65.365430ms
+[2022.12.03-20.22.10:237][404]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.22.10:281][404]LogFileHelpers: Saving map 'Scene01' took 0.286
+[2022.12.03-20.22.13:555][710]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door2)
+[2022.12.03-20.22.17:869][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.22.17:950][107]LogSavePackage: Save=43.171829ms
+[2022.12.03-20.22.17:950][107]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene013D94532A43FBAE4FB8FD83B3FD73FE17.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.22.17:955][107]LogSavePackage: Total save time: 66.044986ms
+[2022.12.03-20.22.17:955][107]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.22.18:002][107]LogFileHelpers: Saving map 'Scene01' took 0.294
+[2022.12.03-20.22.27:428][937]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door)
+[2022.12.03-20.22.30:510][216]Cmd: TRANSACTION UNDO
+[2022.12.03-20.22.30:510][216]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.22.30:923][250]Cmd: EDIT COPY
+[2022.12.03-20.22.31:870][358]Cmd: EDIT PASTE
+[2022.12.03-20.23.06:476][895]Cmd: TRANSACTION UNDO
+[2022.12.03-20.23.06:476][895]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.23.19:040][203]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.23.19:140][203]LogSavePackage: Save=63.401073ms
+[2022.12.03-20.23.19:140][203]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene0170233C444252AF18416B128115E89DE7.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.23.19:144][203]LogSavePackage: Total save time: 85.660677ms
+[2022.12.03-20.23.19:144][203]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.23.19:192][203]LogFileHelpers: Saving map 'Scene01' took 0.310
+[2022.12.03-20.23.20:292][296]LogEditorViewport: Clicking Background
+[2022.12.03-20.23.30:208][545]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-20.23.30:208][545]PIE: New page: PIE session: Scene01 (3 Dec 2022 20:23:30)
+[2022.12.03-20.23.30:208][545]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Scene01
+[2022.12.03-20.23.30:212][545]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004684s)
+[2022.12.03-20.23.30:213][545]LogAIModule: Creating AISystem for world Scene01
+[2022.12.03-20.23.30:214][545]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2022.12.03-20.23.30:214][545]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Scene01.Scene01 to /Game/Scenes/UEDPIE_0_Scene01.Scene01 (0.006072s)
+[2022.12.03-20.23.30:280][545]LogInit: XAudio2 using 'Headphones (Bose QC45 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.12.03-20.23.30:295][545]LogInit: FAudioDevice initialized.
+[2022.12.03-20.23.30:337][545]LogWorld: Game class is 'Gamemode_C'
+[2022.12.03-20.23.30:344][545]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Scene01.Scene01 up for play (max tick rate 0) at 2022.12.03-20.23.30
+[2022.12.03-20.23.30:344][545]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-20.23.30:344][545]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-20.23.30:345][545]LogWorld: Bringing up level for play took: 0.005672
+[2022.12.03-20.23.30:349][545]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Scene01 0.697
+[2022.12.03-20.23.50:739][962]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADF36A2020
+[2022.12.03-20.28.28:403][836]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door3)
+[2022.12.03-20.28.30:547][ 49]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door4)
+[2022.12.03-20.28.32:656][250]Cmd: EDIT COPY
+[2022.12.03-20.28.32:892][270]Cmd: EDIT PASTE
+[2022.12.03-20.28.37:881][822]Cmd: DELETE
+[2022.12.03-20.28.37:881][822]Cmd: ACTOR DELETE
+[2022.12.03-20.28.37:883][822]LogEditorActor: Deleted Actor: Door_C
+[2022.12.03-20.28.37:904][822]LogEditorActor: Deleted 1 Actors (0.022 secs)
+[2022.12.03-20.28.40:427][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.28.40:506][ 75]LogSavePackage: Save=42.250759ms
+[2022.12.03-20.28.40:506][ 75]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01FFA97EBC4366A80B94AA91857D22F8C8.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.28.40:511][ 75]LogSavePackage: Total save time: 65.718897ms
+[2022.12.03-20.28.40:511][ 75]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.28.40:554][ 75]LogFileHelpers: Saving map 'Scene01' took 0.292
+[2022.12.03-20.30.40:199][715]LogActorFactory: Actor Factory created Cube
+[2022.12.03-20.30.41:208][830]LogActorFactory: Actor Factory created Cube
+[2022.12.03-20.31.10:379][953]PIE:Warning: Warning Scale ''X=5.250 Y=0.000 Z=1.000'' is not valid on object '/Game/Scenes/Scene01.Scene01:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2022.12.03-20.31.10:379][953]PIE:Warning: Warning Scale ''X=5.250 Y=0.000 Z=1.000'' is not valid on object '/Game/Scenes/Scene01.Scene01:PersistentLevel.Cube_4.StaticMeshComponent0 Cube'.
+[2022.12.03-20.31.12:888][244]Cmd: MODE SCALEGRID=0
+[2022.12.03-20.31.15:275][517]Cmd: MODE SCALEGRID=1
+[2022.12.03-20.31.33:842][579]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.31.33:920][579]LogSavePackage: Save=43.324360ms
+[2022.12.03-20.31.33:920][579]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene010CC343424EF1A55CBF0DDD91CCB05465.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.31.33:925][579]LogSavePackage: Total save time: 65.037873ms
+[2022.12.03-20.31.33:925][579]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.31.33:968][579]LogFileHelpers: Saving map 'Scene01' took 0.286
+[2022.12.03-20.31.45:161][828]Cmd: TRANSACTION UNDO
+[2022.12.03-20.31.45:161][828]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.31.45:635][866]Cmd: EDIT COPY
+[2022.12.03-20.31.45:868][890]Cmd: EDIT PASTE
+[2022.12.03-20.32.28:531][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.32.28:609][541]LogSavePackage: Save=44.553917ms
+[2022.12.03-20.32.28:609][541]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01925AFEB44EF283AE9586099010205161.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.32.28:614][541]LogSavePackage: Total save time: 65.632854ms
+[2022.12.03-20.32.28:614][541]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.32.28:662][541]LogFileHelpers: Saving map 'Scene01' took 0.281
+[2022.12.03-20.32.34:606][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.32.34:688][868]LogSavePackage: Save=46.148182ms
+[2022.12.03-20.32.34:688][868]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene014DEC1B8B4FD27F54B4C3338A7235B460.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.32.34:693][868]LogSavePackage: Total save time: 67.621652ms
+[2022.12.03-20.32.34:693][868]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.32.34:736][868]LogFileHelpers: Saving map 'Scene01' took 0.292
+[2022.12.03-20.33.08:062][492]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.33.08:419][492]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.33.08:446][492]LogMaterial: 0.009542 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.33.12:070][643]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2022.12.03-20.33.12:070][643]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2022.12.03-20.33.12:070][643]MaterialEditorStats: Info Texture samplers: 0/16
+[2022.12.03-20.35.12:032][498]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.35.12:047][498]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.35.12:053][498]LogMaterial: 0.000127 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.35.16:690][768]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 25 instructions
+[2022.12.03-20.35.16:690][768]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 61 instructions
+[2022.12.03-20.35.16:690][768]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2022.12.03-20.35.16:690][768]MaterialEditorStats: Info Texture samplers: 4/16
+[2022.12.03-20.35.26:416][232]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.35.26:424][232]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.35.26:429][232]LogMaterial: 0.000125 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.35.28:347][337]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Glass" FILE="../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset" SILENT=true
+[2022.12.03-20.35.28:369][337]LogSavePackage: Save=18.915602ms
+[2022.12.03-20.35.28:369][337]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Glass87152D354ED279C5CF4A17928CF5EEE6.tmp' to '../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset'
+[2022.12.03-20.35.28:374][337]LogSavePackage: Total save time: 24.753917ms
+[2022.12.03-20.35.28:374][337]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset
+[2022.12.03-20.35.31:583][376]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 70 instructions
+[2022.12.03-20.35.31:583][376]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 107 instructions
+[2022.12.03-20.35.31:583][376]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2022.12.03-20.35.31:583][376]MaterialEditorStats: Info Texture samplers: 8/16
+[2022.12.03-20.36.43:051][124]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.36.43:060][124]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.36.43:065][124]LogMaterial: 0.000138 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.36.49:067][468]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 165 instructions
+[2022.12.03-20.36.49:067][468]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 201 instructions
+[2022.12.03-20.36.49:067][468]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2022.12.03-20.36.49:067][468]MaterialEditorStats: Info Texture samplers: 9/16
+[2022.12.03-20.37.10:336][914]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.37.10:341][914]LogMaterial: 0.000223 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.37.14:415][158]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.37.14:436][158]LogMaterial: 0.000089 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.37.20:229][505]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 165 instructions
+[2022.12.03-20.37.20:229][505]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 201 instructions
+[2022.12.03-20.37.20:230][505]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2022.12.03-20.37.20:230][505]MaterialEditorStats: Info Texture samplers: 9/16
+[2022.12.03-20.37.22:132][645]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.37.22:136][645]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.37.25:009][819]LogMaterialEditor: Applying material Glass
+[2022.12.03-20.37.26:004][819]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.37.26:024][819]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.37.26:063][819]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.37.26:082][819]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.37.26:092][819]LogMaterial: 0.000893 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.37.39:432][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Glass" FILE="../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset" SILENT=true
+[2022.12.03-20.37.39:467][303]LogSavePackage: Save=13.726535ms
+[2022.12.03-20.37.39:467][303]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Glass6A870A3D46E4D1225CB0338F8F72A9C3.tmp' to '../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset'
+[2022.12.03-20.37.39:471][303]LogSavePackage: Total save time: 36.011070ms
+[2022.12.03-20.37.39:471][303]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset
+[2022.12.03-20.37.39:479][303]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 237 instructions
+[2022.12.03-20.37.39:479][303]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 273 instructions
+[2022.12.03-20.37.39:479][303]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2022.12.03-20.37.39:479][303]MaterialEditorStats: Info Texture samplers: 10/16
+[2022.12.03-20.37.50:220][365]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002AD961C71A0
+[2022.12.03-20.37.50:392][365]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.37.50:500][365]LogSavePackage: Save=70.637611ms
+[2022.12.03-20.37.50:500][365]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene0138A23F164D61EA1512B3F4829A0C3504.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.37.50:505][365]LogSavePackage: Total save time: 94.101347ms
+[2022.12.03-20.37.50:505][365]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.37.50:550][365]LogFileHelpers: Saving map 'Scene01' took 0.316
+[2022.12.03-20.38.10:324][817]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.10:434][817]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.10:440][817]LogMaterial: 0.000164 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.16:250][ 83]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 165 instructions
+[2022.12.03-20.38.16:250][ 83]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 201 instructions
+[2022.12.03-20.38.16:250][ 83]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2022.12.03-20.38.16:250][ 83]MaterialEditorStats: Info Texture samplers: 9/16
+[2022.12.03-20.38.21:416][434]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.21:421][434]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.26:909][779]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 165 instructions
+[2022.12.03-20.38.26:909][779]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 201 instructions
+[2022.12.03-20.38.26:909][779]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2022.12.03-20.38.26:909][779]MaterialEditorStats: Info Texture samplers: 9/16
+[2022.12.03-20.38.27:759][845]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.27:764][845]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.33:643][134]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 196 instructions
+[2022.12.03-20.38.33:643][134]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 232 instructions
+[2022.12.03-20.38.33:643][134]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2022.12.03-20.38.33:643][134]MaterialEditorStats: Info Texture samplers: 10/16
+[2022.12.03-20.38.35:785][289]LogMaterialEditor: Applying material Glass
+[2022.12.03-20.38.36:554][289]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.36:569][289]LogMaterial: 0.000133 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.36:595][289]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.38.36:615][289]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.38.36:624][289]LogMaterial: 0.000747 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.40:926][528]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.40:933][528]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.42:013][594]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.42:021][594]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.43:138][658]LogMaterialEditor: Applying material Glass
+[2022.12.03-20.38.44:123][658]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.44:144][658]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.44:172][658]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.38.44:191][658]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.38.44:202][658]LogMaterial: 0.000841 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.55:810][344]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.55:817][344]LogMaterial: 0.000140 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.56:606][391]LogMaterialEditor: Applying material Glass
+[2022.12.03-20.38.57:602][391]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.38.57:620][391]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.38.57:644][391]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.38.57:664][391]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.38.57:674][391]LogMaterial: 0.000655 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.39.02:049][657]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.39.02:056][657]LogMaterial: 0.000145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.39.02:766][698]LogMaterialEditor: Applying material Glass
+[2022.12.03-20.39.03:778][698]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2022.12.03-20.39.03:797][698]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.39.03:824][698]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.39.03:842][698]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.39.03:853][698]LogMaterial: 0.000802 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.39.04:603][741]LogMaterialEditor: Saving and Compiling material Glass
+[2022.12.03-20.39.29:027][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Glass" FILE="../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset" SILENT=true
+[2022.12.03-20.39.29:077][741]LogSavePackage: Save=26.888893ms
+[2022.12.03-20.39.29:077][741]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/GlassF9B96BBA48CBD8894620EC86812212F7.tmp' to '../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset'
+[2022.12.03-20.39.29:082][741]LogSavePackage: Total save time: 52.505206ms
+[2022.12.03-20.39.29:082][741]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset
+[2022.12.03-20.39.29:094][741]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 237 instructions
+[2022.12.03-20.39.29:094][741]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 273 instructions
+[2022.12.03-20.39.29:094][741]MaterialEditorStats: Info Vertex shader: 68 instructions
+[2022.12.03-20.39.29:094][741]MaterialEditorStats: Info Texture samplers: 10/16
+[2022.12.03-20.39.36:863][422]Cmd: TRANSACTION UNDO
+[2022.12.03-20.39.36:863][422]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.39.39:252][657]LogEditorViewport: Clicking Background
+[2022.12.03-20.39.40:009][734]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADDF3E98A0
+[2022.12.03-20.39.46:668][508]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.39.47:650][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.39.48:092][645]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.39.49:908][843]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.39.51:308][985]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.39.52:039][ 51]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.40.13:020][405]Cmd: EDIT COPY
+[2022.12.03-20.40.13:261][420]Cmd: EDIT PASTE
+[2022.12.03-20.40.55:125][570]LogEditorViewport: Clicking Background
+[2022.12.03-20.40.56:428][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.40.56:507][684]LogSavePackage: Save=43.621605ms
+[2022.12.03-20.40.56:507][684]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01C510C2C140EAEBAAC623BBB90D7C484A.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.40.56:511][684]LogSavePackage: Total save time: 63.957430ms
+[2022.12.03-20.40.56:511][684]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.40.56:567][684]LogFileHelpers: Saving map 'Scene01' took 0.295
+[2022.12.03-20.41.43:281][441]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.41.44:204][521]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (apt_map)
+[2022.12.03-20.41.48:970][ 18]Cmd: EDIT COPY
+[2022.12.03-20.41.49:246][ 49]Cmd: EDIT PASTE
+[2022.12.03-20.42.25:130][663]Cmd: TRANSACTION UNDO
+[2022.12.03-20.42.25:130][663]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.42.38:336][110]Cmd: TRANSACTION UNDO
+[2022.12.03-20.42.38:336][110]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.42.39:500][221]Cmd: TRANSACTION UNDO
+[2022.12.03-20.42.39:500][221]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.43.02:490][104]Cmd: MODE GRID=0
+[2022.12.03-20.43.05:165][413]Cmd: MODE GRID=1
+[2022.12.03-20.43.05:988][507]Cmd: MODE ROTGRID=0
+[2022.12.03-20.43.11:747][148]Cmd: MODE ROTGRID=1
+[2022.12.03-20.43.12:598][244]Cmd: MODE SCALEGRID=0
+[2022.12.03-20.43.19:821][ 21]Cmd: MODE SCALEGRID=1
+[2022.12.03-20.43.21:519][180]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.43.21:602][180]LogSavePackage: Save=45.242760ms
+[2022.12.03-20.43.21:602][180]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01252BEE354298560CAB5FD2BB4BB5F2A0.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.43.21:607][180]LogSavePackage: Total save time: 68.874188ms
+[2022.12.03-20.43.21:607][180]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.43.21:652][180]LogFileHelpers: Saving map 'Scene01' took 0.286
+[2022.12.03-20.43.21:966][215]LogEditorViewport: Clicking Background
+[2022.12.03-20.43.59:832][629]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door2)
+[2022.12.03-20.44.01:116][753]Cmd: TRANSACTION UNDO
+[2022.12.03-20.44.01:116][753]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.44.11:480][704]Cmd: EDIT COPY
+[2022.12.03-20.44.11:928][746]Cmd: EDIT PASTE
+[2022.12.03-20.44.33:916][148]Cmd: MODE GRID=0
+[2022.12.03-20.44.40:870][900]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door5)
+[2022.12.03-20.44.42:422][ 77]Cmd: MODE GRID=1
+[2022.12.03-20.44.43:382][185]Cmd: MODE SCALEGRID=0
+[2022.12.03-20.44.50:596][904]Cmd: MODE SCALEGRID=1
+[2022.12.03-20.44.54:778][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.44.54:862][297]LogSavePackage: Save=48.126717ms
+[2022.12.03-20.44.54:862][297]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01941A5E574604C90E5FDC68BD81C6CE3B.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.44.54:867][297]LogSavePackage: Total save time: 69.862232ms
+[2022.12.03-20.44.54:867][297]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.44.54:911][297]LogFileHelpers: Saving map 'Scene01' took 0.290
+[2022.12.03-20.45.57:321][ 22]Cmd: EDIT COPY
+[2022.12.03-20.45.57:579][ 52]Cmd: EDIT PASTE
+[2022.12.03-20.46.26:720][505]Cmd: TRANSACTION UNDO
+[2022.12.03-20.46.26:720][505]LogEditorTransaction: Undo Scale Actors
+[2022.12.03-20.46.34:537][267]LogEditorViewport: Clicking Background
+[2022.12.03-20.46.34:937][280]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.46.35:030][280]LogSavePackage: Save=56.536095ms
+[2022.12.03-20.46.35:030][280]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01281C3FD443F7D650E7A1EAA8A562828C.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.46.35:035][280]LogSavePackage: Total save time: 78.396276ms
+[2022.12.03-20.46.35:035][280]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.46.35:081][280]LogFileHelpers: Saving map 'Scene01' took 0.306
+[2022.12.03-20.47.05:952][569]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door2)
+[2022.12.03-20.47.07:166][685]Cmd: EDIT COPY
+[2022.12.03-20.47.07:401][708]Cmd: EDIT PASTE
+[2022.12.03-20.47.37:323][ 68]Cmd: MODE GRID=0
+[2022.12.03-20.47.48:643][253]Cmd: MODE SCALEGRID=0
+[2022.12.03-20.47.51:784][538]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door7)
+[2022.12.03-20.47.56:379][ 27]Cmd: MODE GRID=1
+[2022.12.03-20.47.57:029][ 97]Cmd: MODE SCALEGRID=1
+[2022.12.03-20.47.58:261][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.47.58:357][195]LogSavePackage: Save=58.155296ms
+[2022.12.03-20.47.58:357][195]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene013FA8908D48056ACE78E9D4AA19E9688A.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.47.58:362][195]LogSavePackage: Total save time: 81.494853ms
+[2022.12.03-20.47.58:362][195]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.47.58:412][195]LogFileHelpers: Saving map 'Scene01' took 0.310
+[2022.12.03-20.48.18:048][418]LogEditorViewport: Clicking Background
+[2022.12.03-20.48.29:813][755]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door2)
+[2022.12.03-20.48.46:796][136]Cmd: EDIT COPY
+[2022.12.03-20.48.47:036][160]Cmd: EDIT PASTE
+[2022.12.03-20.49.08:053][240]Cmd: MODE GRID=0
+[2022.12.03-20.49.10:452][512]Cmd: MODE GRID=1
+[2022.12.03-20.49.17:435][281]Cmd: MODE SCALEGRID=0
+[2022.12.03-20.49.20:955][670]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door8)
+[2022.12.03-20.49.22:075][794]Cmd: MODE GRID=0
+[2022.12.03-20.49.23:377][939]Cmd: MODE SCALEGRID=1
+[2022.12.03-20.49.30:666][757]Cmd: MODE GRID=1
+[2022.12.03-20.49.32:218][912]LogEditorViewport: Clicking Background
+[2022.12.03-20.49.32:644][931]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.49.32:748][931]LogSavePackage: Save=63.740852ms
+[2022.12.03-20.49.32:748][931]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01EAABAC1C4C4F203F47A7EAB2BB74499B.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.49.32:752][931]LogSavePackage: Total save time: 88.575922ms
+[2022.12.03-20.49.32:752][931]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.49.32:798][931]LogFileHelpers: Saving map 'Scene01' took 0.314
+[2022.12.03-20.51.48:508][ 71]Cmd: DELETE
+[2022.12.03-20.51.48:508][ 71]Cmd: ACTOR DELETE
+[2022.12.03-20.51.48:510][ 71]LogEditorActor: Deleted Actor: Door_C
+[2022.12.03-20.51.48:528][ 71]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2022.12.03-20.51.49:732][185]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.51.49:823][185]LogSavePackage: Save=54.151295ms
+[2022.12.03-20.51.49:823][185]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene012B627A364C110A59C3AE54A49554206E.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.51.49:828][185]LogSavePackage: Total save time: 76.258365ms
+[2022.12.03-20.51.49:828][185]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.51.49:873][185]LogFileHelpers: Saving map 'Scene01' took 0.305
+[2022.12.03-20.52.55:024][996]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door7)
+[2022.12.03-20.52.55:898][ 87]Cmd: DELETE
+[2022.12.03-20.52.55:898][ 87]Cmd: ACTOR DELETE
+[2022.12.03-20.52.55:900][ 87]LogEditorActor: Deleted Actor: Door_C
+[2022.12.03-20.52.55:917][ 87]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2022.12.03-20.52.56:806][171]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.52.56:893][171]LogSavePackage: Save=51.614941ms
+[2022.12.03-20.52.56:893][171]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene014E3B848643FAC72A977A4088C2FB93CD.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.52.56:899][171]LogSavePackage: Total save time: 74.193295ms
+[2022.12.03-20.52.56:899][171]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.52.56:949][171]LogFileHelpers: Saving map 'Scene01' took 0.296
+[2022.12.03-20.53.13:155][441]LogEditorViewport: Clicking on Actor (LMB): Door_C (Door8)
+[2022.12.03-20.53.13:995][522]Cmd: DELETE
+[2022.12.03-20.53.13:995][522]Cmd: ACTOR DELETE
+[2022.12.03-20.53.13:997][522]LogEditorActor: Deleted Actor: Door_C
+[2022.12.03-20.53.14:014][522]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2022.12.03-20.53.16:044][738]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.53.16:126][738]LogSavePackage: Save=47.025738ms
+[2022.12.03-20.53.16:126][738]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene014172DF6E472AF8CA7BE681AB396A626E.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.53.16:131][738]LogSavePackage: Total save time: 68.481605ms
+[2022.12.03-20.53.16:131][738]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.53.16:177][738]LogFileHelpers: Saving map 'Scene01' took 0.278
+[2022.12.03-20.54.29:745][473]LogEditorViewport: Clicking Background
+[2022.12.03-20.54.32:440][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.54.32:555][771]LogSavePackage: Save=48.021118ms
+[2022.12.03-20.54.32:555][771]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene014578CB874CB4F29028AD06A3E2FA67AB.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.54.32:560][771]LogSavePackage: Total save time: 101.200990ms
+[2022.12.03-20.54.32:560][771]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.54.32:606][771]LogFileHelpers: Saving map 'Scene01' took 0.321
+[2022.12.03-20.55.11:774][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-20.55.11:774][577]PIE: New page: PIE session: Scene01 (3 Dec 2022 20:55:11)
+[2022.12.03-20.55.11:774][577]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Scene01
+[2022.12.03-20.55.11:779][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004517s)
+[2022.12.03-20.55.11:780][577]LogAIModule: Creating AISystem for world Scene01
+[2022.12.03-20.55.11:780][577]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2022.12.03-20.55.11:780][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Scene01.Scene01 to /Game/Scenes/UEDPIE_0_Scene01.Scene01 (0.005683s)
+[2022.12.03-20.55.11:851][577]LogInit: XAudio2 using 'Headphones (Bose QC45 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.12.03-20.55.11:871][577]LogInit: FAudioDevice initialized.
+[2022.12.03-20.55.11:909][577]LogWorld: Game class is 'Gamemode_C'
+[2022.12.03-20.55.11:920][577]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Scene01.Scene01 up for play (max tick rate 0) at 2022.12.03-20.55.11
+[2022.12.03-20.55.11:920][577]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-20.55.11:920][577]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-20.55.11:921][577]LogWorld: Bringing up level for play took: 0.009991
+[2022.12.03-20.55.11:925][577]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Scene01 0.273
+[2022.12.03-20.56.06:706][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002AD959B6700
+[2022.12.03-20.56.09:684][401]LogEditorViewport: Clicking Background
+[2022.12.03-20.56.13:652][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.56.13:737][727]LogSavePackage: Save=47.401207ms
+[2022.12.03-20.56.13:737][727]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene013EB01E4848FBFACF97DCD2BB6FEDA5E2.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.56.13:739][727]LogSavePackage: Total save time: 67.376230ms
+[2022.12.03-20.56.13:739][727]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.56.16:358][ 22]MapCheck: New page: Map Check
+[2022.12.03-20.56.16:376][ 22]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-20.56.16:376][ 22]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-20.56.16:476][ 22]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2022.12.03-20.56.16:476][ 22]LogStats:          STAT_HLOD_BuildClusters - 19.072 ms
+[2022.12.03-20.56.16:476][ 22]LightingResults: New page: Lighting Build - 3 Dec 2022 20:56:16
+[2022.12.03-20.56.26:058][ 22]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-20.56.26:058][ 22]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-20.56.26:058][ 22]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-20.56.26:058][ 22]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-20.56.26:059][ 22]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-20.56.26:059][ 22]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-20.56.26:255][ 22]LogEditorBuildUtils: Build time 0:00:09
+[2022.12.03-20.56.26:306][ 22]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
+[2022.12.03-20.56.26:311][ 22]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Glass, compiling. 
+[2022.12.03-20.56.29:370][ 31]Job is a success!
+[2022.12.03-20.56.29:370][ 31]LightingResults:Error: Error PsychoticEpisode Object has overlapping UVs.
+[2022.12.03-20.56.29:370][ 31]LightingResults: Info PsychoticEpisode Lightmap UV are overlapping by 31.7%. Please adjust content - Enable Error Coloring to visualize.
+[2022.12.03-20.56.29:768][ 32]LogMaterial:Warning: Material /Game/Materials/Glass.Glass needed to have new flag set bUsedWithStaticLighting !
+[2022.12.03-20.56.29:776][ 32]LogMaterial: Missing cached shader map for material Glass, compiling. 
+[2022.12.03-20.56.29:791][ 32]LogMaterial: 0.000193 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2022.12.03-20.56.29:831][ 32]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2022.12.03-20.56.29:838][ 32]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2022.12.03-20.56.29:839][ 32]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2022.12.03-20.56.29:842][ 32]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2022.12.03-20.56.29:929][ 32]Lightmass on DESKTOP-15OBU63: 1.66 sec total, 246 ms importing, 2 ms setup, 240 ms photons, 1.05 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 5.16 sec total, 974 ms processing.
+[2022.12.03-20.56.29:982][ 32]LogStaticLightingSystem: Illumination: 13.1 sec (39 ms encoding lightmaps)
+[2022.12.03-20.56.29:982][ 32]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-20.56.29:982][ 32]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2022.12.03-20.56.30:074][ 33]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-20.56.30:075][ 33]MapCheck: New page: Scene01 - 3 Dec 2022 20:56:30
+[2022.12.03-20.56.30:281][ 33]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 204.66ms to complete.
+[2022.12.03-20.57.37:495][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.57.37:589][820]LogSavePackage: Save=56.853386ms
+[2022.12.03-20.57.37:589][820]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene018C2652F948963208F66BCFB331846E3A.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.57.37:593][820]LogSavePackage: Total save time: 79.382364ms
+[2022.12.03-20.57.37:593][820]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.57.37:639][820]LogFileHelpers: Saving map 'Scene01' took 0.300
+[2022.12.03-20.57.37:643][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Glass" FILE="../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset" SILENT=true
+[2022.12.03-20.57.37:692][820]LogSavePackage: Save=27.228670ms
+[2022.12.03-20.57.37:692][820]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Glass86CA80C54F5C8B4D4EF8D0AC24EE2A33.tmp' to '../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset'
+[2022.12.03-20.57.37:698][820]LogSavePackage: Total save time: 51.269293ms
+[2022.12.03-20.57.37:698][820]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Materials/Glass.uasset
+[2022.12.03-20.57.38:417][904]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PsychoticEpisode)
+[2022.12.03-20.58.13:550][177]Cmd: TRANSACTION UNDO
+[2022.12.03-20.58.13:550][177]LogEditorTransaction: Undo Move Actors
+[2022.12.03-20.58.13:881][195]Cmd: TRANSACTION UNDO
+[2022.12.03-20.58.13:881][195]LogEditorTransaction: Undo Rotate Actors
+[2022.12.03-20.58.22:288][ 12]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PsychoticEpisode)
+[2022.12.03-20.58.23:966][190]Cmd: TRANSACTION UNDO
+[2022.12.03-20.58.23:966][190]LogEditorTransaction: Undo Clicking on Actors
+[2022.12.03-20.58.28:557][618]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PsychoticEpisode)
+[2022.12.03-20.58.29:995][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.58.30:093][746]LogSavePackage: Save=58.465252ms
+[2022.12.03-20.58.30:093][746]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01A7CC5DE946B59EDF97D8BF829D3E23CB.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.58.30:100][746]LogSavePackage: Total save time: 84.637921ms
+[2022.12.03-20.58.30:100][746]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.58.30:150][746]LogFileHelpers: Saving map 'Scene01' took 0.317
+[2022.12.03-20.59.00:476][ 45]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2022.12.03-20.59.04:198][412]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PsychoticEpisode)
+[2022.12.03-20.59.05:614][551]LogEditorViewport: Clicking Background
+[2022.12.03-20.59.06:156][578]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.59.06:257][578]LogSavePackage: Save=65.082855ms
+[2022.12.03-20.59.06:257][578]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01037096AA4226BB33E79CE9B97E70DB59.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.59.06:263][578]LogSavePackage: Total save time: 87.977521ms
+[2022.12.03-20.59.06:263][578]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.59.06:306][578]LogFileHelpers: Saving map 'Scene01' took 0.307
+[2022.12.03-20.59.09:824][959]MapCheck: New page: Map Check
+[2022.12.03-20.59.09:839][959]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-20.59.09:839][959]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-20.59.09:936][959]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2022.12.03-20.59.09:936][959]LogStats:          STAT_HLOD_BuildClusters - 17.219 ms
+[2022.12.03-20.59.09:936][959]LightingResults: New page: Lighting Build - 3 Dec 2022 20:59:09
+[2022.12.03-20.59.14:540][959]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-20.59.14:540][959]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-20.59.14:540][959]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-20.59.14:540][959]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-20.59.14:540][959]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-20.59.14:540][959]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-20.59.14:653][959]LogEditorBuildUtils: Build time 0:00:04
+[2022.12.03-20.59.16:382][116]LightingResults:Error: Error PsychoticEpisode Object has overlapping UVs.
+[2022.12.03-20.59.16:382][116]LightingResults: Info PsychoticEpisode Lightmap UV are overlapping by 31.7%. Please adjust content - Enable Error Coloring to visualize.
+[2022.12.03-20.59.16:404][119]Job is a success!
+[2022.12.03-20.59.16:495][120]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2022.12.03-20.59.16:501][120]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2022.12.03-20.59.16:528][120]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2022.12.03-20.59.16:549][120]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2022.12.03-20.59.16:577][120]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8)
+[2022.12.03-20.59.16:605][120]Lightmass on DESKTOP-15OBU63: 1.26 sec total, 266 ms importing, 2 ms setup, 293 ms photons, 628 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 3.05 sec total, 952 ms processing.
+[2022.12.03-20.59.16:662][120]LogStaticLightingSystem: Illumination: 6.70 sec (95 ms encoding lightmaps)
+[2022.12.03-20.59.16:663][120]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-20.59.16:663][120]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2022.12.03-20.59.21:554][121]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-20.59.21:554][121]MapCheck: New page: Scene01 - 3 Dec 2022 20:59:21
+[2022.12.03-20.59.21:747][121]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 192.561ms to complete.
+[2022.12.03-20.59.26:864][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-20.59.26:963][719]LogSavePackage: Save=61.424984ms
+[2022.12.03-20.59.26:963][719]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01C3E74FED4D0F4FDA494402A0010F4721.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-20.59.26:968][719]LogSavePackage: Total save time: 84.475610ms
+[2022.12.03-20.59.26:968][719]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-20.59.39:410][123]MapCheck: New page: Map Check
+[2022.12.03-20.59.39:424][123]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-20.59.39:424][123]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-20.59.39:514][123]LightingResults: New page: Lighting Build - 3 Dec 2022 20:59:39
+[2022.12.03-20.59.44:137][123]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-20.59.44:137][123]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-20.59.44:137][123]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-20.59.44:137][123]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-20.59.44:137][123]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-20.59.44:137][123]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-20.59.44:212][123]LogEditorBuildUtils: Build time 0:00:04
+[2022.12.03-20.59.45:842][273]LightingResults:Error: Error PsychoticEpisode Object has overlapping UVs.
+[2022.12.03-20.59.45:842][273]LightingResults: Info PsychoticEpisode Lightmap UV are overlapping by 31.7%. Please adjust content - Enable Error Coloring to visualize.
+[2022.12.03-20.59.45:866][276]Job is a success!
+[2022.12.03-20.59.45:936][277]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2022.12.03-20.59.45:942][277]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2022.12.03-20.59.45:950][277]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2022.12.03-20.59.45:977][277]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2022.12.03-20.59.45:984][277]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8)
+[2022.12.03-20.59.46:066][277]Lightmass on DESKTOP-15OBU63: 1.25 sec total, 269 ms importing, 2 ms setup, 314 ms photons, 535 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 2.59 sec total, 930 ms processing.
+[2022.12.03-20.59.46:074][277]LogStaticLightingSystem: Illumination: 6.54 sec (60 ms encoding lightmaps)
+[2022.12.03-20.59.46:074][277]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-20.59.46:074][277]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2022.12.03-20.59.51:152][278]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-20.59.51:152][278]MapCheck: New page: Scene01 - 3 Dec 2022 20:59:51
+[2022.12.03-20.59.51:309][278]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 157.151ms to complete.
+[2022.12.03-21.00.04:554][216]LogRenderer: Reallocating scene render targets to support 1432x920 (Frame:166527).
+[2022.12.03-21.03.39:038][601]LogEditorFactories: Performing atomic reimport of [E:/The Hivemind/Assets/Models/PsychoticEpisode.fbx]
+[2022.12.03-21.03.39:162][601]LogFbx: Loading FBX Scene from E:/The Hivemind/Assets/Models/PsychoticEpisode.fbx
+[2022.12.03-21.03.39:257][601]LogFbx: FBX Scene Loaded Succesfully
+[2022.12.03-21.03.39:287][601]LogFbx:Warning: Triangulating static mesh Plane
+[2022.12.03-21.03.39:298][601]LogFbx:Warning: Triangulating static mesh Cube
+[2022.12.03-21.03.39:449][601]LogFbx:Warning: Triangulating static mesh Cube.001
+[2022.12.03-21.03.39:458][601]LogFbx:Warning: Triangulating static mesh Pistol
+[2022.12.03-21.03.39:493][601]LogStaticMesh: Building static mesh PsychoticEpisode...
+[2022.12.03-21.03.39:609][601]LogStaticMesh: Built static mesh [0.115636.2s] /Game/Models/PsychoticEpisode.PsychoticEpisode
+[2022.12.03-21.03.39:627][601]LogEditorFactories: -- imported successfully
+[2022.12.03-21.03.43:817][ 67]MapCheck: New page: Map Check
+[2022.12.03-21.03.43:833][ 67]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-21.03.43:834][ 67]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-21.03.43:954][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADA2534680
+[2022.12.03-21.03.43:959][ 67]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2022.12.03-21.03.43:959][ 67]LogStats:          STAT_HLOD_BuildClusters - 22.933 ms
+[2022.12.03-21.03.43:959][ 67]LightingResults: New page: Lighting Build - 3 Dec 2022 21:03:43
+[2022.12.03-21.03.48:604][ 67]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-21.03.48:604][ 67]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-21.03.48:604][ 67]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-21.03.48:604][ 67]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-21.03.48:604][ 67]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-21.03.48:604][ 67]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-21.03.48:708][ 67]LogEditorBuildUtils: Build time 0:00:04
+[2022.12.03-21.03.50:912][278]Job is a success!
+[2022.12.03-21.03.50:984][279]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2022.12.03-21.03.50:991][279]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2022.12.03-21.03.51:002][279]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2022.12.03-21.03.51:027][279]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2022.12.03-21.03.51:036][279]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8)
+[2022.12.03-21.03.51:085][279]Lightmass on DESKTOP-15OBU63: 1.74 sec total, 281 ms importing, 2 ms setup, 317 ms photons, 1.05 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 5.21 sec total, 1.53 sec processing.
+[2022.12.03-21.03.51:100][279]LogStaticLightingSystem: Illumination: 7.11 sec (67 ms encoding lightmaps)
+[2022.12.03-21.03.51:100][279]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.03.51:100][279]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2022.12.03-21.03.51:621][280]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-21.03.51:621][280]MapCheck: New page: Scene01 - 3 Dec 2022 21:03:51
+[2022.12.03-21.03.51:779][280]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 158.538ms to complete.
+[2022.12.03-21.03.57:059][869]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2022.12.03-21.03.58:842][ 29]Cmd: TRANSACTION UNDO
+[2022.12.03-21.03.58:842][ 29]LogEditorTransaction: Undo Move Actors
+[2022.12.03-21.04.01:242][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.04.01:349][255]LogSavePackage: Save=68.837517ms
+[2022.12.03-21.04.01:349][255]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene017EE68AA342CBDC8622F29D888FF2F840.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.04.01:354][255]LogSavePackage: Total save time: 93.193967ms
+[2022.12.03-21.04.01:354][255]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.04.01:402][255]LogFileHelpers: Saving map 'Scene01' took 0.328
+[2022.12.03-21.04.01:426][255]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/PsychoticEpisode" FILE="../../../../Hivemind/Hivemind/Content/Models/PsychoticEpisode.uasset" SILENT=true
+[2022.12.03-21.04.01:464][255]LogSavePackage: Save=15.703114ms
+[2022.12.03-21.04.01:464][255]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/PsychoticEpisode3EED2CF0448075D7BCECE4B392ADFDAB.tmp' to '../../../../Hivemind/Hivemind/Content/Models/PsychoticEpisode.uasset'
+[2022.12.03-21.04.01:468][255]LogSavePackage: Total save time: 40.087424ms
+[2022.12.03-21.04.01:468][255]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Models/PsychoticEpisode.uasset
+[2022.12.03-21.04.02:721][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PsychoticEpisode)
+[2022.12.03-21.04.03:996][520]MapCheck: New page: Map Check
+[2022.12.03-21.04.04:012][520]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-21.04.04:012][520]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-21.04.04:143][520]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2022.12.03-21.04.04:143][520]LogStats:          STAT_HLOD_BuildClusters - 17.837 ms
+[2022.12.03-21.04.04:143][520]LightingResults: New page: Lighting Build - 3 Dec 2022 21:04:04
+[2022.12.03-21.04.08:738][520]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-21.04.08:738][520]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-21.04.08:738][520]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-21.04.08:738][520]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-21.04.08:738][520]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-21.04.08:738][520]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-21.04.08:809][520]LogEditorBuildUtils: Build time 0:00:04
+[2022.12.03-21.04.10:653][667]Job is a success!
+[2022.12.03-21.04.10:727][669]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2022.12.03-21.04.10:733][669]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2022.12.03-21.04.10:745][669]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2022.12.03-21.04.10:768][669]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2022.12.03-21.04.10:778][669]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8)
+[2022.12.03-21.04.10:830][669]Lightmass on DESKTOP-15OBU63: 1.43 sec total, 280 ms importing, 2 ms setup, 299 ms photons, 753 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 3.66 sec total, 1.13 sec processing.
+[2022.12.03-21.04.10:830][669]LogStaticLightingSystem: Illumination: 6.66 sec (63 ms encoding lightmaps)
+[2022.12.03-21.04.10:830][669]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.04.10:830][669]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.04.11:754][670]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-21.04.11:754][670]MapCheck: New page: Scene01 - 3 Dec 2022 21:04:11
+[2022.12.03-21.04.11:911][670]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 157.339ms to complete.
+[2022.12.03-21.04.17:617][258]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2022.12.03-21.04.26:513][212]Cmd: TRANSACTION UNDO
+[2022.12.03-21.04.26:513][212]LogEditorTransaction: Undo Edit Indirect Lighting Intensity
+[2022.12.03-21.04.31:850][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.04.31:952][733]LogSavePackage: Save=64.724007ms
+[2022.12.03-21.04.31:952][733]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01A57E48D4461330203009BAA88B716924.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.04.31:957][733]LogSavePackage: Total save time: 87.914456ms
+[2022.12.03-21.04.31:957][733]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.04.32:003][733]LogFileHelpers: Saving map 'Scene01' took 0.310
+[2022.12.03-21.04.43:264][962]MapCheck: New page: Map Check
+[2022.12.03-21.04.43:280][962]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-21.04.43:281][962]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-21.04.43:428][962]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2022.12.03-21.04.43:428][962]LogStats:          STAT_HLOD_BuildClusters - 18.088 ms
+[2022.12.03-21.04.43:429][962]LightingResults: New page: Lighting Build - 3 Dec 2022 21:04:43
+[2022.12.03-21.04.48:032][962]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-21.04.48:032][962]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-21.04.48:032][962]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-21.04.48:032][962]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-21.04.48:032][962]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-21.04.48:032][962]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-21.04.48:107][962]LogEditorBuildUtils: Build time 0:00:04
+[2022.12.03-21.04.50:102][113]Job is a success!
+[2022.12.03-21.04.50:176][114]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2022.12.03-21.04.50:183][114]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2022.12.03-21.04.50:194][114]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2022.12.03-21.04.50:220][114]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2022.12.03-21.04.50:279][114]Lightmass on DESKTOP-15OBU63: 1.56 sec total, 286 ms importing, 2 ms setup, 301 ms photons, 885 ms processing, 0 ms extra exporting [6/6 mappings]. Threads: 4.31 sec total, 1.23 sec processing.
+[2022.12.03-21.04.50:294][114]LogStaticLightingSystem: Illumination: 6.84 sec (63 ms encoding lightmaps)
+[2022.12.03-21.04.50:294][114]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.04.50:294][114]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.04.51:050][115]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-21.04.51:050][115]MapCheck: New page: Scene01 - 3 Dec 2022 21:04:51
+[2022.12.03-21.04.51:208][115]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 156.928ms to complete.
+[2022.12.03-21.04.55:263][531]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PsychoticEpisode)
+[2022.12.03-21.04.56:859][686]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2022.12.03-21.05.02:314][258]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PsychoticEpisode)
+[2022.12.03-21.05.08:217][851]LogEditorViewport: Clicking Background
+[2022.12.03-21.05.09:520][966]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.05.09:627][966]LogSavePackage: Save=66.124672ms
+[2022.12.03-21.05.09:627][966]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01A416D1954A8A60684040D694E550C16A.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.05.09:632][966]LogSavePackage: Total save time: 89.996636ms
+[2022.12.03-21.05.09:632][966]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.05.09:679][966]LogFileHelpers: Saving map 'Scene01' took 0.323
+[2022.12.03-21.05.36:577][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-21.05.36:577][402]PIE: New page: PIE session: Scene01 (3 Dec 2022 21:05:36)
+[2022.12.03-21.05.36:577][402]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Scene01
+[2022.12.03-21.05.36:582][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004888s)
+[2022.12.03-21.05.36:583][402]LogAIModule: Creating AISystem for world Scene01
+[2022.12.03-21.05.36:583][402]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2022.12.03-21.05.36:583][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Scene01.Scene01 to /Game/Scenes/UEDPIE_0_Scene01.Scene01 (0.006237s)
+[2022.12.03-21.05.36:667][402]LogInit: XAudio2 using 'Headphones (Bose QC45 Stereo)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2022.12.03-21.05.36:684][402]LogInit: FAudioDevice initialized.
+[2022.12.03-21.05.36:718][402]LogWorld: Game class is 'Gamemode_C'
+[2022.12.03-21.05.36:731][402]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Scene01.Scene01 up for play (max tick rate 0) at 2022.12.03-21.05.36
+[2022.12.03-21.05.36:731][402]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-21.05.36:731][402]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-21.05.36:732][402]LogWorld: Bringing up level for play took: 0.011647
+[2022.12.03-21.05.36:739][402]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Scene01 1.086
+[2022.12.03-21.05.39:718][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002AE17FB2700
+[2022.12.03-21.05.45:242][348]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2022.12.03-21.06.20:998][702]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.06.21:101][702]LogSavePackage: Save=63.967697ms
+[2022.12.03-21.06.21:101][702]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene015AE7F3CD416287C98D017FB613D39882.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.06.21:107][702]LogSavePackage: Total save time: 90.656143ms
+[2022.12.03-21.06.21:108][702]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.06.21:159][702]LogFileHelpers: Saving map 'Scene01' took 0.334
+[2022.12.03-21.06.22:396][822]MapCheck: New page: Map Check
+[2022.12.03-21.06.22:415][822]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-21.06.22:415][822]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-21.06.22:621][822]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2022.12.03-21.06.22:621][822]LogStats:          STAT_HLOD_BuildClusters - 18.466 ms
+[2022.12.03-21.06.22:621][822]LightingResults: New page: Lighting Build - 3 Dec 2022 21:06:22
+[2022.12.03-21.06.27:227][822]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-21.06.27:227][822]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-21.06.27:227][822]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-21.06.27:227][822]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-21.06.27:227][822]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-21.06.27:227][822]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-21.06.27:298][822]LogEditorBuildUtils: Build time 0:00:04
+[2022.12.03-21.06.29:437][975]Job is a success!
+[2022.12.03-21.06.33:327][317]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2022.12.03-21.06.33:332][317]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2022.12.03-21.06.33:346][317]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2022.12.03-21.06.33:376][317]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2022.12.03-21.06.33:425][317]LogStaticLightingSystem: Illumination: 6.95 sec (64 ms encoding lightmaps)
+[2022.12.03-21.06.33:425][317]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.06.33:425][317]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.06.34:237][317]Lightmass on DESKTOP-15OBU63: 5.52 sec total, 316 ms importing, 3 ms setup, 360 ms photons, 4.71 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 23.4 sec total, 1.32 sec processing.
+[2022.12.03-21.06.34:251][318]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-21.06.34:251][318]MapCheck: New page: Scene01 - 3 Dec 2022 21:06:34
+[2022.12.03-21.06.34:420][318]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 168.967ms to complete.
+[2022.12.03-21.06.41:292][993]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PsychoticEpisode)
+[2022.12.03-21.06.47:816][603]Cmd: TRANSACTION UNDO
+[2022.12.03-21.06.47:816][603]LogEditorTransaction: Undo Create Actors
+[2022.12.03-21.07.00:004][672]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2022.12.03-21.07.01:743][848]Cmd: TRANSACTION UNDO
+[2022.12.03-21.07.01:743][848]LogEditorTransaction: Undo Clicking on Actors
+[2022.12.03-21.07.02:165][877]Cmd: TRANSACTION UNDO
+[2022.12.03-21.07.02:165][877]LogEditorTransaction: Undo Move Actors
+[2022.12.03-21.07.03:150][977]Cmd: DELETE
+[2022.12.03-21.07.03:150][977]Cmd: ACTOR DELETE
+[2022.12.03-21.07.03:151][977]LogEditorActor: Deleted Actor: PointLight
+[2022.12.03-21.07.03:171][977]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2022.12.03-21.07.04:253][ 75]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.07.04:362][ 75]LogSavePackage: Save=64.746010ms
+[2022.12.03-21.07.04:362][ 75]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene012BAB29E542970FAF06AF3187FA7327DB.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.07.04:367][ 75]LogSavePackage: Total save time: 89.083388ms
+[2022.12.03-21.07.04:367][ 75]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.07.04:417][ 75]LogFileHelpers: Saving map 'Scene01' took 0.336
+[2022.12.03-21.07.04:843][124]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2022.12.03-21.07.07:475][395]Cmd: TRANSACTION UNDO
+[2022.12.03-21.07.07:475][395]LogEditorTransaction: Undo Move Actors
+[2022.12.03-21.07.08:528][487]Cmd: TRANSACTION UNDO
+[2022.12.03-21.07.08:528][487]LogEditorTransaction: Undo Clicking on Actors
+[2022.12.03-21.07.10:011][631]Cmd: TRANSACTION REDO
+[2022.12.03-21.07.10:011][631]LogEditorTransaction: Redo Clicking on Actors
+[2022.12.03-21.07.20:644][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.07.20:746][606]LogSavePackage: Save=65.799561ms
+[2022.12.03-21.07.20:746][606]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01389565F1479EF8E07D02BD9299D98B46.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.07.20:751][606]LogSavePackage: Total save time: 88.110011ms
+[2022.12.03-21.07.20:751][606]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.07.20:796][606]LogFileHelpers: Saving map 'Scene01' took 0.315
+[2022.12.03-21.07.21:206][649]MapCheck: New page: Map Check
+[2022.12.03-21.07.21:223][649]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-21.07.21:223][649]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-21.07.21:399][649]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2022.12.03-21.07.21:399][649]LogStats:          STAT_HLOD_BuildClusters - 19.051 ms
+[2022.12.03-21.07.21:399][649]LightingResults: New page: Lighting Build - 3 Dec 2022 21:07:21
+[2022.12.03-21.07.26:008][649]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-21.07.26:008][649]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-21.07.26:008][649]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-21.07.26:008][649]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-21.07.26:008][649]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-21.07.26:008][649]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-21.07.26:079][649]LogEditorBuildUtils: Build time 0:00:04
+[2022.12.03-21.07.33:601][330]Job is a success!
+[2022.12.03-21.07.33:694][331]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2022.12.03-21.07.33:703][331]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2022.12.03-21.07.33:717][331]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2022.12.03-21.07.33:744][331]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2022.12.03-21.07.33:788][331]Lightmass on DESKTOP-15OBU63: 7.03 sec total, 396 ms importing, 2 ms setup, 1.43 sec photons, 5.06 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 25.2 sec total, 7.52 sec processing.
+[2022.12.03-21.07.33:799][331]LogStaticLightingSystem: Illumination: 12.3 sec (70 ms encoding lightmaps)
+[2022.12.03-21.07.33:799][331]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.07.33:799][331]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.07.34:029][332]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-21.07.34:029][332]MapCheck: New page: Scene01 - 3 Dec 2022 21:07:34
+[2022.12.03-21.07.34:198][332]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 169.376ms to complete.
+[2022.12.03-21.07.36:694][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PsychoticEpisode)
+[2022.12.03-21.07.37:727][674]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2022.12.03-21.07.51:773][903]MapCheck: New page: Map Check
+[2022.12.03-21.07.51:788][903]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-21.07.51:788][903]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-21.07.51:962][903]LightingResults: New page: Lighting Build - 3 Dec 2022 21:07:51
+[2022.12.03-21.07.56:550][903]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-21.07.56:550][903]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-21.07.56:550][903]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-21.07.56:550][903]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-21.07.56:550][903]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-21.07.56:550][903]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-21.07.56:629][903]LogEditorBuildUtils: Build time 0:00:04
+[2022.12.03-21.08.01:731][355]Job is a success!
+[2022.12.03-21.08.01:815][357]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2022.12.03-21.08.01:823][357]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2022.12.03-21.08.01:836][357]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2022.12.03-21.08.01:860][357]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2022.12.03-21.08.01:916][357]Lightmass on DESKTOP-15OBU63: 4.51 sec total, 536 ms importing, 3 ms setup, 1.01 sec photons, 2.79 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 13.8 sec total, 4.09 sec processing.
+[2022.12.03-21.08.01:917][357]LogStaticLightingSystem: Illumination: 9.93 sec (61 ms encoding lightmaps)
+[2022.12.03-21.08.01:917][357]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.08.01:917][357]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.08.02:571][358]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-21.08.02:571][358]MapCheck: New page: Scene01 - 3 Dec 2022 21:08:02
+[2022.12.03-21.08.02:738][358]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 167.562ms to complete.
+[2022.12.03-21.08.02:892][372]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (StaticMeshActor1)
+[2022.12.03-21.08.06:803][762]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2022.12.03-21.08.13:821][493]Cmd: TRANSACTION UNDO
+[2022.12.03-21.08.13:821][493]LogEditorTransaction: Undo Edit Outer Cone Angle
+[2022.12.03-21.08.17:497][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.08.17:610][828]LogSavePackage: Save=74.324318ms
+[2022.12.03-21.08.17:610][828]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene01613BB6D74B9946ADBA96F3B5E448D41C.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.08.17:615][828]LogSavePackage: Total save time: 98.234903ms
+[2022.12.03-21.08.17:616][828]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.08.17:676][828]LogFileHelpers: Saving map 'Scene01' took 0.336
+[2022.12.03-21.08.18:473][906]MapCheck: New page: Map Check
+[2022.12.03-21.08.18:489][906]Cmd: MAP REBUILD ALLVISIBLE
+[2022.12.03-21.08.18:489][906]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.12.03-21.08.18:679][906]MapCheck:Warning: Warning WorldSettings_1 Hierarchical LOD System is disabled or no HLOD level settings available, unable to build LOD actors. 
+[2022.12.03-21.08.18:680][906]LogStats:          STAT_HLOD_BuildClusters - 17.271 ms
+[2022.12.03-21.08.18:680][906]LightingResults: New page: Lighting Build - 3 Dec 2022 21:08:18
+[2022.12.03-21.08.23:289][906]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.12.03-21.08.23:289][906]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.12.03-21.08.23:289][906]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.12.03-21.08.23:289][906]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.12.03-21.08.23:289][906]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.12.03-21.08.23:289][906]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.12.03-21.08.23:358][906]LogEditorBuildUtils: Build time 0:00:04
+[2022.12.03-21.08.28:509][349]Job is a success!
+[2022.12.03-21.08.28:590][351]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2022.12.03-21.08.28:596][351]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2022.12.03-21.08.28:611][351]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2022.12.03-21.08.28:640][351]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2022.12.03-21.08.28:703][351]LogStaticLightingSystem: Illumination: 9.99 sec (68 ms encoding lightmaps)
+[2022.12.03-21.08.28:703][351]LogStaticLightingSystem: Lightmap texture memory:  0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.08.28:703][351]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.12.03-21.08.29:305][351]Lightmass on DESKTOP-15OBU63: 4.69 sec total, 353 ms importing, 2 ms setup, 1.06 sec photons, 3.16 sec processing, 0 ms extra exporting [6/6 mappings]. Threads: 15.6 sec total, 4.39 sec processing.
+[2022.12.03-21.08.29:308][352]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.12.03-21.08.29:308][352]MapCheck: New page: Scene01 - 3 Dec 2022 21:08:29
+[2022.12.03-21.08.29:470][352]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 162.113ms to complete.
+[2022.12.03-21.08.35:508][946]LogEditorViewport: Clicking Background
+[2022.12.03-21.08.51:756][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.08.51:875][289]LogSavePackage: Save=75.844276ms
+[2022.12.03-21.08.51:875][289]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene0177F8C34D488EB10581D2138F56DE814C.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.08.51:880][289]LogSavePackage: Total save time: 102.678411ms
+[2022.12.03-21.08.51:880][289]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.08.51:930][289]LogFileHelpers: Saving map 'Scene01' took 0.345
+[2022.12.03-21.11.26:392][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.11.26:503][701]LogSavePackage: Save=70.642494ms
+[2022.12.03-21.11.26:504][701]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene015F679CB24995C12BD7F10289177B8B2B.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.11.26:509][701]LogSavePackage: Total save time: 96.687078ms
+[2022.12.03-21.11.26:509][701]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.11.26:559][701]LogFileHelpers: Saving map 'Scene01' took 0.341
+[2022.12.03-21.11.27:457][766]LogEditorViewport: Clicking Background
+[2022.12.03-21.12.25:399][ 10]LogEditorViewport: Clicking on Actor (LMB): Actor (Actor)
+[2022.12.03-21.13.03:766][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Scenes/Scene01" FILE="../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2022.12.03-21.13.03:876][375]LogSavePackage: Save=70.426895ms
+[2022.12.03-21.13.03:876][375]LogSavePackage: Moving '../../../../Hivemind/Hivemind/Saved/Scene0167E0CC5549B0178F8F854D80E6293542.tmp' to '../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap'
+[2022.12.03-21.13.03:882][375]LogSavePackage: Total save time: 96.112635ms
+[2022.12.03-21.13.03:882][375]LogSavePackage:Display: Finished SavePackage ../../../../Hivemind/Hivemind/Content/Scenes/Scene01.umap
+[2022.12.03-21.13.03:933][375]LogFileHelpers: Saving map 'Scene01' took 0.343
+[2022.12.03-21.24.17:391][528]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.12.03-21.24.17:391][528]PIE: New page: PIE session: Scene01 (3 Dec 2022 21:24:17)
+[2022.12.03-21.24.17:392][528]LogPlayLevel: Creating play world package: /Game/Scenes/UEDPIE_0_Scene01
+[2022.12.03-21.24.17:396][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004781s)
+[2022.12.03-21.24.17:397][528]LogAIModule: Creating AISystem for world Scene01
+[2022.12.03-21.24.17:397][528]LogPlayLevel: PIE: World Init took: (0.001086s)
+[2022.12.03-21.24.17:398][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Scenes/Scene01.Scene01 to /Game/Scenes/UEDPIE_0_Scene01.Scene01 (0.006093s)
+[2022.12.03-21.24.17:433][528]LogInit: XAudio2 using 'DELL S2421H (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2022.12.03-21.24.17:473][528]LogInit: FAudioDevice initialized.
+[2022.12.03-21.24.17:514][528]LogWorld: Game class is 'Gamemode_C'
+[2022.12.03-21.24.17:523][528]LogWorld: Bringing World /Game/Scenes/UEDPIE_0_Scene01.Scene01 up for play (max tick rate 0) at 2022.12.03-21.24.17
+[2022.12.03-21.24.17:523][528]LogActor:Warning: GameSession /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-21.24.17:523][528]LogActor:Warning: GameNetworkManager /Game/Scenes/UEDPIE_0_Scene01.Scene01:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2022.12.03-21.24.17:523][528]LogWorld: Bringing up level for play took: 0.007942
+[2022.12.03-21.24.17:527][528]PIE: Info Play in editor start time for /Game/Scenes/UEDPIE_0_Scene01 -0.125
+[2022.12.03-21.24.23:631][250]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADAA243380
+[2022.12.03-21.24.46:726][990]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2022.12.03-21.24.47:080][991]Cmd: QUIT_EDITOR
+[2022.12.03-21.24.47:453][991]LogExit: Preparing to exit.
+[2022.12.03-21.24.47:849][991]LogExit: Editor shut down
+[2022.12.03-21.24.47:851][991]LogExit: Transaction tracking system shut down
+[2022.12.03-21.24.47:854][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADDF4EE3E0
+[2022.12.03-21.24.47:862][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADF2D756C0
+[2022.12.03-21.24.47:862][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADFAB07EC0
+[2022.12.03-21.24.47:862][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002AD961C6CA0
+[2022.12.03-21.24.47:862][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002AD8D6C0F40
+[2022.12.03-21.24.47:862][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADDC643C40
+[2022.12.03-21.24.48:092][991]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002ADF2F13100
+[2022.12.03-21.24.48:092][991]LogExit: Object subsystem successfully closed.
+[2022.12.03-21.24.48:114][991]LogD3D11RHI: Shutdown
+[2022.12.03-21.24.48:114][991]LogD3D11RHI: CleanupD3DDevice
+[2022.12.03-21.24.48:292][991]LogD3D11RHI: ~FD3D11DynamicRHI
+[2022.12.03-21.24.48:352][991]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (201)
+[2022.12.03-21.24.48:352][991]LogModuleManager: Shutting down and abandoning module MaterialEditor (200)
+[2022.12.03-21.24.48:352][991]LogModuleManager: Shutting down and abandoning module CookingStats (199)
+[2022.12.03-21.24.48:352][991]LogModuleManager: Shutting down and abandoning module CrashTracker (198)
+[2022.12.03-21.24.48:352][991]LogModuleManager: Shutting down and abandoning module SceneOutliner (197)
+[2022.12.03-21.24.48:352][991]LogModuleManager: Shutting down and abandoning module SuperSearch (196)
+[2022.12.03-21.24.48:352][991]LogModuleManager: Shutting down and abandoning module WidgetCarousel (195)
+[2022.12.03-21.24.48:352][991]LogModuleManager: Shutting down and abandoning module AddContentDialog (194)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module EditorWidgets (193)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module CollectionManager (192)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2022.12.03-21.24.48:363][991]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2022.12.03-21.24.48:364][991]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2022.12.03-21.24.48:364][991]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2022.12.03-21.24.48:364][991]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2022.12.03-21.24.48:364][991]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2022.12.03-21.24.48:364][991]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2022.12.03-21.24.48:364][991]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2022.12.03-21.24.48:364][991]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2022.12.03-21.24.48:717][991]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2022.12.03-21.24.48:717][991]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2022.12.03-21.24.48:717][991]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2022.12.03-21.24.48:717][991]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2022.12.03-21.24.48:717][991]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2022.12.03-21.24.48:717][991]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2022.12.03-21.24.48:717][991]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2022.12.03-21.24.48:717][991]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2022.12.03-21.24.48:717][991]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2022.12.03-21.24.48:718][991]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2022.12.03-21.24.48:719][991]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2022.12.03-21.24.48:719][991]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2022.12.03-21.24.48:719][991]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2022.12.03-21.24.48:719][991]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2022.12.03-21.24.48:719][991]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2022.12.03-21.24.48:719][991]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2022.12.03-21.24.48:719][991]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2022.12.03-21.24.48:719][991]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2022.12.03-21.24.48:720][991]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2022.12.03-21.24.48:720][991]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2022.12.03-21.24.48:720][991]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2022.12.03-21.24.48:720][991]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2022.12.03-21.24.48:720][991]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2022.12.03-21.24.48:720][991]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2022.12.03-21.24.48:720][991]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2022.12.03-21.24.48:721][991]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2022.12.03-21.24.48:721][991]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2022.12.03-21.24.48:721][991]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2022.12.03-21.24.48:721][991]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2022.12.03-21.24.48:721][991]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2022.12.03-21.24.48:721][991]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2022.12.03-21.24.48:721][991]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2022.12.03-21.24.48:958][991]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2022.12.03-21.24.48:958][991]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2022.12.03-21.24.48:958][991]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2022.12.03-21.24.48:958][991]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2022.12.03-21.24.48:959][991]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2022.12.03-21.24.48:959][991]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2022.12.03-21.24.48:959][991]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2022.12.03-21.24.48:959][991]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2022.12.03-21.24.48:988][991]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2022.12.03-21.24.48:988][991]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2022.12.03-21.24.48:988][991]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2022.12.03-21.24.48:988][991]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2022.12.03-21.24.48:988][991]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2022.12.03-21.24.48:988][991]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2022.12.03-21.24.48:988][991]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2022.12.03-21.24.48:988][991]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2022.12.03-21.24.48:988][991]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2022.12.03-21.24.48:989][991]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2022.12.03-21.24.48:990][991]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2022.12.03-21.24.48:999][991]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2022.12.03-21.24.49:080][991]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2022.12.03-21.24.49:082][991]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2022.12.03-21.24.49:082][991]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2022.12.03-21.24.49:184][991]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2022.12.03-21.24.49:184][991]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2022.12.03-21.24.49:184][991]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2022.12.03-21.24.49:188][991]LogModuleManager: Shutting down and abandoning module Media (82)
+[2022.12.03-21.24.49:188][991]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2022.12.03-21.24.49:190][991]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module Core (60)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2022.12.03-21.24.49:194][991]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2022.12.03-21.24.49:226][991]LogDerivedDataCache: Shutdown
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2022.12.03-21.24.49:226][991]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2022.12.03-21.24.49:227][991]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2022.12.03-21.24.49:228][991]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2022.12.03-21.24.51:231][991]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2022.12.03-21.24.51:231][991]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2022.12.03-21.24.51:231][991]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2022.12.03-21.24.51:231][991]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2022.12.03-21.24.51:231][991]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2022.12.03-21.24.51:231][991]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2022.12.03-21.24.51:231][991]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2022.12.03-21.24.51:246][991]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2022.12.03-21.24.51:248][991]LogExit: Exiting.
+[2022.12.03-21.24.51:291][991]Log file closed, 12/03/22 21:24:51
